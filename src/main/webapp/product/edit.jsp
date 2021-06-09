@@ -17,7 +17,7 @@
 <p style="color: red"><c:out value="${message}"/></p>
 <a href="/">|| back home ||</a>
 <a href="/Products">|| back to product list ||</a>
-<form method="post" action="/Product?action=edit&&id=${product.id}" >
+<form method="post" action="/Products?action=edit&&id=${product.id}" >
     <table>
         <tr>
             <td>Name:</td>
